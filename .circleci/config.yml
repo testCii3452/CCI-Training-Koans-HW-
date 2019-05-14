@@ -1,10 +1,10 @@
 version: 2
 jobs:
   build:
-    docker: 
-    - circleci/ruby:2.4.1
-    steps:
-    - checkout
-    - run
-    name: 'run' statements can actually contain a 'name' and 'command' argument as well
-    command: echo You can even have multiline commands.
+   docker: 
+   - circleci/ruby:2.4.1
+   steps:
+   - checkout
+   - run
+   name: 'run' statements can actually contain a 'name' and 'command' argument as well
+   command: echo You can even have multiline commands.
