@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker: 
-    - circleci/node4.8.2
+    - circleci/ruby:2.4.1
     steps:
       - checkout
       - run
